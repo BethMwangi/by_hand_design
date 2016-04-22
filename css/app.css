@@ -475,3 +475,13 @@ in the welcome page
 }
 
 /* End of animated image slider*/
+
+.overlay {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 50%;
+    height: 55%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.75);
+}
