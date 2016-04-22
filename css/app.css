@@ -13,7 +13,7 @@ body {
     padding-top: 1%;
     width: 90%;
     height: 15%;
-    background-color: rgba(245, 245, 245, 0.22);
+    background-color: rgba(0, 0, 0, 0.71);
     z-index: 1000;
     position: absolute;
     line-height: 1;
@@ -194,10 +194,10 @@ in the welcome page
     line-height: 200px;
 }
 .cb-slideshow li:nth-child(1) span {
-    background-image: url(../img/photo-1434742937189-458c80959a6c.jpg)
+    background-image: url(../img/photo-1434742937189-458c80959a6c-compressor.jpg)
 }
 .cb-slideshow li:nth-child(2) span {
-    background-image: url(../img/photo-1452639608291-23cd58f6864d.jpg);
+    background-image: url(../img/claymold.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -205,7 +205,7 @@ in the welcome page
     animation-delay: 6s;
 }
 .cb-slideshow li:nth-child(3) span {
-    background-image: url(../img/photo-1422246358533-95dcd3d48961.jpg);
+    background-image: url(../img/colored.jpg);
     -webkit-animation-delay: 12s;
     -moz-animation-delay: 12s;
     -o-animation-delay: 12s;
@@ -221,7 +221,7 @@ in the welcome page
     animation-delay: 18s;
 }
 .cb-slideshow li:nth-child(5) span {
-    background-image: url(../img/photo-1422246358533-95dcd3d48961.jpg);
+    background-image: url(../img/black-n-white--compressor.jpg);
     -webkit-animation-delay: 24s;
     -moz-animation-delay: 24s;
     -o-animation-delay: 24s;
@@ -229,7 +229,7 @@ in the welcome page
     animation-delay: 24s;
 }
 .cb-slideshow li:nth-child(6) span {
-    background-image: url(../img/photo-1453814235491-3cfac3999928.jpg);
+    background-image: url(../img/wallhanging.jpg);
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
