@@ -4,6 +4,7 @@ body {
 .container {
     width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 .scroll-bg {
     min-height: 80%;
@@ -537,27 +538,26 @@ in the welcome page
 
 .four {
     width: 100%;
-    height: 600px;
-    background-color: fuchsia;
+    height: 300px;
 }
-.first,
-.second {
-    width: 50%;
+.col-one {
+    height: 300px;
 }
-.white {
-    height: 200px;
+.col-two {
+    height: 300px;
+    right: 0;
     background-color: whitesmoke;
 }
-.gif {
-    width: 50%;
-    height: 400px;
-    background-color: fuchsia;
+.col-one h2 {
+    text-transform: uppercase;
+    font-size: 1.8em;
+    color: crimson;
+    line-height: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-.cont {
-    height: 400px;
-    background-color: fuchsia;
-}
-.blank {
-    height: 200px;
-    background-color: whitesmoke;
+.col-one p {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 2em;
 }
