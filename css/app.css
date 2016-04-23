@@ -23,7 +23,7 @@ body {
 }
 .two {
     width: 100%;
-    height: 600px;
+    height: 550px;
 }
 .menu {
     padding-top: 1%;
@@ -507,19 +507,28 @@ in the welcome page
 
 .three {
     width: 100%;
-    height: 200px;
+    height: 300px;
+    background-color: whitesmoke;
 }
 .red {
-    height: 200px;
+    height: 300px;
     background-color: crimson;
 }
 .abt {
-    background-color: whitesmoke;
+    height: 300px;
     text-align: center;
-    height: 200px;
+    padding-top: 3%;
 }
 .abt h3 {
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.8em;
     color: crimson;
+    line-height: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.abt p {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 2em;
 }
