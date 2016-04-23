@@ -1,13 +1,29 @@
 body {
     background-color: black;
 }
+.container {
+    width: 100%;
+    height: auto;
+}
+.scroll-bg {
+    min-height: 80%;
+}
+.fixed_bg {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .one {
     width: 100%;
     height: 100px;
 }
 .two {
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 .menu {
     padding-top: 1%;
@@ -18,6 +34,7 @@ body {
     position: absolute;
     line-height: 1;
     margin: 0 auto 10em;
+    position: fixed;
 }
 .menu__list {
     position: relative;
@@ -142,7 +159,7 @@ in the welcome page
 
 .cb-slideshow,
 .cb-slideshow:after {
-    position: fixed;
+    /*    position: fixed;*/
     width: 100%;
     height: 100%;
     top: 0px;
@@ -484,4 +501,25 @@ in the welcome page
     height: 55%;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.75);
+}
+
+/*The about us row defined */
+
+.three {
+    width: 100%;
+    height: 200px;
+}
+.red {
+    height: 200px;
+    background-color: crimson;
+}
+.abt {
+    background-color: whitesmoke;
+    text-align: center;
+    height: 200px;
+}
+.abt h3 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: crimson;
 }
