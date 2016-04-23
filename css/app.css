@@ -542,11 +542,18 @@ in the welcome page
 }
 .col-one {
     height: 300px;
+    padding-top: 5%;
 }
 .col-two {
     height: 300px;
-    right: 0;
-    background-color: whitesmoke;
+    background-image: url(../img/black-n-white--compressor.jpg);
+    background-size: cover;
+
+/*    background-attachment: fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 .col-one h2 {
     text-transform: uppercase;
@@ -560,4 +567,9 @@ in the welcome page
     font-size: 1.5em;
     color: rgba(0, 0, 0, 0.8);
     line-height: 2em;
+}
+.five {
+    width: 100%;
+    height: 20px;
+    background-color: crimson;
 }
