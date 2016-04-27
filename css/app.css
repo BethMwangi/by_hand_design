@@ -208,7 +208,7 @@ in the welcome page
     animation: titleAnimation 36s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
-    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    /*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
     font-size: 10em;
     padding: 0;
     line-height: 200px;
@@ -691,5 +691,17 @@ in the welcome page
     bottom: 20px;
     right: 20px;
 }
+.six {
+    background-color: whitesmoke;
+}
 
 /*End caption hover effects in portfolio*/
+
+
+/*Our team members row  eight*/
+
+.eight {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.18);
+}
