@@ -827,3 +827,22 @@ in the welcome page
         -webkit-transform: translateY(5px);
         transform: translateY(5px);
     }
+    /*Row nine form company */
+
+    .nine {
+        width: 100%;
+        height: 500px;
+    }
+    .fixed_bg {
+        min-height: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .row.fixed_bg.bg_img_2 {
+        background-image: url(../img/black-n-white--compressor.jpg);
+        width: 100%;
+    }
