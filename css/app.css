@@ -222,7 +222,7 @@ in the welcome page
         animation-delay: 6s;
     }
     .cb-slideshow li:nth-child(3) span h2 {
-        background-image: url(../img/colored.jpg);
+        background-image: url(../img/colorful.jpg);
         -webkit-animation-delay: 12s;
         -moz-animation-delay: 12s;
         -o-animation-delay: 12s;
@@ -978,3 +978,21 @@ in the welcome page
         height: 300px;
         background-color: rgba(0, 0, 0, 0.85);
     }
+    .central {
+
+        width: 33.3%;
+        height: 20%;
+        background-color: white;
+    }
+.name-header     {
+padding-top: 10%;
+
+}
+.name {
+color: whitesmoke;
+
+}
+
+.name span {
+color: crimson;
+}
