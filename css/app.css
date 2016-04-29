@@ -77,7 +77,7 @@
         position: relative;
         display: block;
         text-align: center;
-        color: #d94f5c;
+        color: whitesmoke;
         -webkit-transition: color 0.4s;
         transition: color 0.4s;
     }
@@ -502,7 +502,7 @@ in the welcome page
 
     .three {
         width: 100%;
-        height: 300px;
+        height: 400px;
         background-color: whitesmoke;
     }
     .red {
@@ -978,21 +978,22 @@ in the welcome page
         height: 300px;
         background-color: rgba(0, 0, 0, 0.85);
     }
-    .central {
-
-        width: 33.3%;
-        height: 20%;
-        background-color: white;
+    .name-header {
+        padding-top: 10%;
     }
-.name-header     {
-padding-top: 10%;
-
-}
-.name {
-color: whitesmoke;
-
-}
-
-.name span {
-color: crimson;
-}
+    .name {
+        color: whitesmoke;
+    }
+    .name span {
+        color: crimson;
+        font-family: 'Roboto Condensed', sans-serif
+    }
+    .central ul li {
+        padding-top: 10%;
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .central ul li a {
+        color: whitesmoke;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
