@@ -997,3 +997,15 @@ in the welcome page
         color: whitesmoke;
         font-family: 'Roboto Condensed', sans-serif;
     }
+    /* Blog positioning*/
+
+    .blog-one {
+        width: 100%;
+        height: auto;
+        background-color: whitesmoke;
+    }
+    .blog-header h1 {
+        color: crimson;
+        padding-top: 10%;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
