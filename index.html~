@@ -20,8 +20,8 @@
 <body>
 
     <div class="container">
-        <div class="row one fullwidth">
-            <div class="large-12 columns ">
+        <div class="row one">
+            <div class="large-12 columns">
                 <section class="section section--menu" id="Viola">
 
                     <span class="link-copy"></span>
@@ -90,22 +90,22 @@
 
                     </li>
                     <li><span><img> </span>
-
-                        <!-- <div class="overlay">
+                        
+                        <div class="overlay">
                             <h2>  The creation of Beauty
                         <br>Is Art
 </h2></div>
-                            <h3>im·ag·i·na·tion</h3> -->
+                            <h3>im·ag·i·na·tion</h3>
 
                     </li>
                     <li><span><img> </span>
 
-                        <!--
+                        
                         <div class="overlay">
                             <h2>  The creation of Beauty
                         <br>Is Art
     </h2></div>
-                        <h3>im·ag·i·na·tion</h3>-->
+                        <h3>im·ag·i·na·tion</h3>
 
 
                     </li>
@@ -337,19 +337,19 @@
     </div>
     <script src="js/classie2.js"></script>
     <script>
-        (function () {
+        (function() {
 
             if (!String.prototype.trim) {
-                (function () {
+                (function() {
                     // Make sure we trim BOM and NBSP
                     var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-                    String.prototype.trim = function () {
+                    String.prototype.trim = function() {
                         return this.replace(rtrim, '');
                     };
                 })();
             }
 
-            [].slice.call(document.querySelectorAll('input.input__field')).forEach(function (inputEl) {
+            [].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
                 // in case the input is already filled..
                 if (inputEl.value.trim() !== '') {
                     classie.add(inputEl.parentNode, 'input--filled');
@@ -370,29 +370,30 @@
                 }
             }
         })();
+
     </script>
     <script>
-        (function () {
+        (function() {
 
             function init() {
-                var speed = 300
-                    , easing = mina.backout;
+                var speed = 300,
+                    easing = mina.backout;
 
-                [].slice.call(document.querySelectorAll('#grid > a')).forEach(function (el) {
-                    var s = Snap(el.querySelector('svg'))
-                        , path = s.select('path')
-                        , pathConfig = {
-                            from: path.attr('d')
-                            , to: el.getAttribute('data-path-hover')
+                [].slice.call(document.querySelectorAll('#grid > a')).forEach(function(el) {
+                    var s = Snap(el.querySelector('svg')),
+                        path = s.select('path'),
+                        pathConfig = {
+                            from: path.attr('d'),
+                            to: el.getAttribute('data-path-hover')
                         };
 
-                    el.addEventListener('mouseenter', function () {
+                    el.addEventListener('mouseenter', function() {
                         path.animate({
                             'path': pathConfig.to
                         }, speed, easing);
                     });
 
-                    el.addEventListener('mouseleave', function () {
+                    el.addEventListener('mouseleave', function() {
                         path.animate({
                             'path': pathConfig.from
                         }, speed, easing);
@@ -403,6 +404,7 @@
             init();
 
         })();
+
     </script>
     <script src="js/snap.svg-min.js"></script>
     <script src="js/modernizr.custom.js"></script>
@@ -410,10 +412,10 @@
     <script src="js/classie.js"></script>
     <script src="js/clipboard.min.js"></script>
     <script>
-        (function () {
-            [].slice.call(document.querySelectorAll('.menu')).forEach(function (menu) {
-                var menuItems = menu.querySelectorAll('.menu__link')
-                    , setCurrent = function (ev) {
+        (function() {
+            [].slice.call(document.querySelectorAll('.menu')).forEach(function(menu) {
+                var menuItems = menu.querySelectorAll('.menu__link'),
+                    setCurrent = function(ev) {
                         ev.preventDefault();
 
                         var item = ev.target.parentNode; // li
@@ -428,22 +430,23 @@
                         classie.add(item, 'menu__item--current');
                     };
 
-                [].slice.call(menuItems).forEach(function (el) {
+                [].slice.call(menuItems).forEach(function(el) {
                     el.addEventListener('click', setCurrent);
                 });
             });
 
-            [].slice.call(document.querySelectorAll('.link-copy')).forEach(function (link) {
+            [].slice.call(document.querySelectorAll('.link-copy')).forEach(function(link) {
                 link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id);
                 new Clipboard(link);
-                link.addEventListener('click', function () {
+                link.addEventListener('click', function() {
                     classie.add(link, 'link-copy--animate');
-                    setTimeout(function () {
+                    setTimeout(function() {
                         classie.remove(link, 'link-copy--animate');
                     }, 300);
                 });
             });
         })(window);
+
     </script>
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>

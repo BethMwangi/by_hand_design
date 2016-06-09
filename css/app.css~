@@ -1,25 +1,14 @@
     body {
         background-color: black;
     }
-
     .container {
         width: 100%;
         height: auto;
         margin: 0 auto;
     }
-
-    .fullwidth {
-        width: 100%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: initial;
-    }
-
     .scroll-bg {
         min-height: 80%;
     }
-
     .fixed_bg {
         min-height: 100%;
         background-size: cover;
@@ -29,17 +18,14 @@
         background-repeat: no-repeat;
         background-position: center center;
     }
-
     .one {
         width: 100%;
         height: 100px;
     }
-
     .two {
         width: 100%;
         height: 550px;
     }
-
     .menu {
         padding-top: 1%;
         width: 90%;
@@ -51,7 +37,6 @@
         margin: 0 auto 10em;
         position: fixed;
     }
-
     .menu__list {
         position: relative;
         display: -webkit-flex;
@@ -62,12 +47,10 @@
         padding: 0;
         list-style: none;
     }
-
     .menu__item {
         display: block;
         margin: 1em 0;
     }
-
     .menu__link {
         font-size: 1.05em;
         font-weight: bold;
@@ -82,17 +65,14 @@
         -khtml-user-select: none;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-
     .menu__link:hover,
     .menu__link:focus {
         outline: none;
     }
-
     .menu--viola .menu__item {
         position: relative;
         margin: 0 1em;
     }
-
     .menu--viola .menu__link {
         position: relative;
         display: block;
@@ -101,16 +81,13 @@
         -webkit-transition: color 0.4s;
         transition: color 0.4s;
     }
-
     .menu--viola .menu__link:hover,
     .menu--viola .menu__link:focus {
         color: #fff;
     }
-
     .menu--viola .menu__item--current .menu__link {
         color: #d94f5c;
     }
-
     .menu--viola .menu__item::before,
     .menu--viola .menu__item::after,
     .menu--viola .menu__link::before,
@@ -121,7 +98,6 @@
         -webkit-transition: -webkit-transform 0.2s;
         transition: transform 0.2s;
     }
-
     .menu--viola .menu__item::before,
     .menu--viola .menu__item::after {
         top: 0;
@@ -130,19 +106,16 @@
         -webkit-transform: scale3d(1, 0, 1);
         transform: scale3d(1, 0, 1);
     }
-
     .menu--viola .menu__item::before {
         left: 0;
         -webkit-transform-origin: 50% 100%;
         transform-origin: 50% 100%;
     }
-
     .menu--viola .menu__item::after {
         right: 0;
         -webkit-transform-origin: 50% 0%;
         transform-origin: 50% 0%;
     }
-
     .menu--viola .menu__link::before,
     .menu--viola .menu__link::after {
         left: 0;
@@ -151,19 +124,16 @@
         -webkit-transform: scale3d(0, 1, 1);
         transform: scale3d(0, 1, 1);
     }
-
     .menu--viola .menu__link::before {
         top: 0;
         -webkit-transform-origin: 0 50%;
         transform-origin: 0 50%;
     }
-
     .menu--viola .menu__link::after {
         bottom: 0;
         -webkit-transform-origin: 100% 50%;
         transform-origin: 100% 50%;
     }
-
     .menu--viola .menu__item--current::before,
     .menu--viola .menu__item--current::after,
     .menu--viola .menu__item--current .menu__link::before,
@@ -195,12 +165,10 @@ in the welcome page
         z-index: 0;
         list-style-type: none;
     }
-
     .cb-slideshow:after {
         content: '';
         background: transparent url(../images/pattern.png) repeat top left;
     }
-
     .cb-slideshow li span {
         width: 100%;
         height: 100%;
@@ -221,7 +189,6 @@ in the welcome page
         -ms-animation: imageAnimation 36s linear infinite 0s;
         animation: imageAnimation 36s linear infinite 0s;
     }
-
     .cb-slideshow li div {
         z-index: 1000;
         position: absolute;
@@ -237,63 +204,55 @@ in the welcome page
         -ms-animation: titleAnimation 36s linear infinite 0s;
         animation: titleAnimation 36s linear infinite 0s;
     }
-
     .cb-slideshow li div h3 {
         /*    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;*/
         font-size: 10em;
         padding: 0;
         line-height: 200px;
     }
-
     .cb-slideshow li:nth-child(1) span {
-        background-image: url(../img/large3.jpg);
+        background-image: url(../img/photo-1434742937189-458c80959a6c-compressor.jpg)
     }
-
     .cb-slideshow li:nth-child(2) span {
-        background-image: url(../img/large7.jpg);
+        background-image: url(../img/claymold.jpg);
         -webkit-animation-delay: 6s;
         -moz-animation-delay: 6s;
         -o-animation-delay: 6s;
         -ms-animation-delay: 6s;
         animation-delay: 6s;
     }
-
     .cb-slideshow li:nth-child(3) span h2 {
-        background-image: url(../img/large6.jpg);
+        background-image: url(../img/colorful.jpg);
         -webkit-animation-delay: 12s;
         -moz-animation-delay: 12s;
         -o-animation-delay: 12s;
         -ms-animation-delay: 12s;
         animation-delay: 12s;
     }
-
     .cb-slideshow li:nth-child(4) span {
-        background-image: url(../img/large5.jpg);
+        background-image: url(../img/hand-mm-compressor.jpg);
         -webkit-animation-delay: 18s;
         -moz-animation-delay: 18s;
         -o-animation-delay: 18s;
         -ms-animation-delay: 18s;
         animation-delay: 18s;
     }
-
     .cb-slideshow li:nth-child(5) span {
-        background-image: url(../img/large6.jpg);
+        background-image: url(../img/black-n-white--compressor.jpg);
         -webkit-animation-delay: 24s;
         -moz-animation-delay: 24s;
         -o-animation-delay: 24s;
         -ms-animation-delay: 24s;
         animation-delay: 24s;
     }
-
     .cb-slideshow li:nth-child(6) span {
-        background-image: url(../img/large4.jpg);
+        background-image: url(../img/wallhanging.jpg);
         -webkit-animation-delay: 30s;
         -moz-animation-delay: 30s;
         -o-animation-delay: 30s;
         -ms-animation-delay: 30s;
         animation-delay: 30s;
     }
-
     .cb-slideshow li:nth-child(2) div {
         -webkit-animation-delay: 6s;
         -moz-animation-delay: 6s;
@@ -301,7 +260,6 @@ in the welcome page
         -ms-animation-delay: 6s;
         animation-delay: 6s;
     }
-
     .cb-slideshow li:nth-child(3) div {
         -webkit-animation-delay: 12s;
         -moz-animation-delay: 12s;
@@ -309,7 +267,6 @@ in the welcome page
         -ms-animation-delay: 12s;
         animation-delay: 12s;
     }
-
     .cb-slideshow li:nth-child(4) div {
         -webkit-animation-delay: 18s;
         -moz-animation-delay: 18s;
@@ -317,7 +274,6 @@ in the welcome page
         -ms-animation-delay: 18s;
         animation-delay: 18s;
     }
-
     .cb-slideshow li:nth-child(5) div {
         -webkit-animation-delay: 24s;
         -moz-animation-delay: 24s;
@@ -325,7 +281,6 @@ in the welcome page
         -ms-animation-delay: 24s;
         animation-delay: 24s;
     }
-
     .cb-slideshow li:nth-child(6) div {
         -webkit-animation-delay: 30s;
         -moz-animation-delay: 30s;
@@ -354,7 +309,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @-moz-keyframes imageAnimation {
         0% {
             opacity: 0;
@@ -374,7 +328,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @-o-keyframes imageAnimation {
         0% {
             opacity: 0;
@@ -394,7 +347,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @-ms-keyframes imageAnimation {
         0% {
             opacity: 0;
@@ -414,7 +366,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @keyframes imageAnimation {
         0% {
             opacity: 0;
@@ -453,7 +404,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @-moz-keyframes titleAnimation {
         0% {
             opacity: 0
@@ -471,7 +421,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @-o-keyframes titleAnimation {
         0% {
             opacity: 0
@@ -489,7 +438,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @-ms-keyframes titleAnimation {
         0% {
             opacity: 0
@@ -507,7 +455,6 @@ in the welcome page
             opacity: 0
         }
     }
-
     @keyframes titleAnimation {
         0% {
             opacity: 0
@@ -530,13 +477,11 @@ in the welcome page
     .no-cssanimations .cb-slideshow li span {
         opacity: 1;
     }
-
     @media screen and (max-width: 1140px) {
         .cb-slideshow li div h3 {
             font-size: 140px
         }
     }
-
     @media screen and (max-width: 600px) {
         .cb-slideshow li div h3 {
             font-size: 80px
@@ -560,18 +505,15 @@ in the welcome page
         height: 400px;
         background-color: whitesmoke;
     }
-
     .red {
         height: 300px;
         background-color: crimson;
     }
-
     .abt {
         height: 300px;
         text-align: center;
         padding-top: 3%;
     }
-
     .abt h3 {
         text-transform: uppercase;
         font-size: 1.8em;
@@ -579,7 +521,6 @@ in the welcome page
         line-height: 2em;
         font-family: 'Roboto Condensed', sans-serif;
     }
-
     .abt p {
         font-family: 'Poiret One', cursive;
         font-size: 1.5em;
@@ -592,12 +533,10 @@ in the welcome page
         width: 100%;
         height: 300px;
     }
-
     .col-one {
         height: 300px;
         padding-top: 5%;
     }
-
     .col-two {
         height: 300px;
         background-image: url(../img/black-n-white--compressor.jpg);
@@ -608,7 +547,6 @@ in the welcome page
         background-repeat: no-repeat;
         background-position: center center;
     }
-
     .col-one h2 {
         text-transform: uppercase;
         font-size: 1.8em;
@@ -616,21 +554,18 @@ in the welcome page
         line-height: 2em;
         font-family: 'Roboto Condensed', sans-serif;
     }
-
     .col-one p {
         font-family: 'Poiret One', cursive;
         font-size: 1.5em;
         color: rgba(0, 0, 0, 0.8);
         line-height: 2em;
     }
-
     .five,
     .seven {
         width: 100%;
         height: 50px;
         background-color: crimson;
     }
-
     .five h2,
     .seven h2 {
         text-transform: uppercase;
@@ -655,7 +590,6 @@ in the welcome page
         list-style: none;
         text-align: center;
     }
-
     .grid li {
         display: block;
         width: 440px;
@@ -664,7 +598,6 @@ in the welcome page
         text-align: left;
         position: relative;
     }
-
     .grid figure {
         margin: 0;
         /*
@@ -673,13 +606,11 @@ in the welcome page
 */
         position: relative;
     }
-
     .grid figure img {
         max-width 100%;
         display: block;
         position: relative;
     }
-
     .grid figcaption {
         position: absolute;
         top: 0;
@@ -688,17 +619,14 @@ in the welcome page
         background: #2c3f52;
         color: #ed4e6e;
     }
-
     .grid figcaption h3 {
         margin: 0;
         padding: 0;
         color: crimson;
     }
-
     .grid figcaption span:before {
         content: 'by ';
     }
-
     .grid figcaption a {
         text-align: center;
         padding: 5px 10px;
@@ -707,17 +635,14 @@ in the welcome page
         background: #ed4e6e;
         color: #fff;
     }
-
     .cs-style-3 figure {
         overflow: hidden;
     }
-
     .cs-style-3 figure img {
         -webkit-transition: -webkit-transform 0.4s;
         -moz-transition: -moz-transform 0.4s;
         transition: transform 0.4s;
     }
-
     .no-touch .cs-style-3 figure:hover img,
     .cs-style-3 figure.cs-hover img {
         -webkit-transform: translateY(-50px);
@@ -725,7 +650,6 @@ in the welcome page
         -ms-transform: translateY(-50px);
         transform: translateY(-50px);
     }
-
     .cs-style-3 figcaption {
         height: 100px;
         width: 100%;
@@ -740,7 +664,6 @@ in the welcome page
         -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
         transition: transform 0.4s, opacity 0.1s 0.3s;
     }
-
     .no-touch .cs-style-3 figure:hover figcaption,
     .cs-style-3 figure.cs-hover figcaption {
         opacity: 1;
@@ -752,13 +675,11 @@ in the welcome page
         -moz-transition: -moz-transform 0.4s, opacity 0.1s;
         transition: transform 0.4s, opacity 0.1s;
     }
-
     .cs-style-3 figcaption a {
         position: absolute;
         bottom: 20px;
         right: 20px;
     }
-
     .six {
         background-color: whitesmoke;
     }
@@ -770,31 +691,26 @@ in the welcome page
         height: auto;
         background-color: rgba(0, 0, 0, 0.18);
     }
-
     .grid2 {
         margin: 20px auto 120px;
         max-width: 1000px;
         width: 90%;
     }
-
     .grid2 a {
         float: left;
         max-width: 250px;
         width: 25%;
         color: #333;
     }
-
     .grid2 a:nth-child(odd) {
         margin: 30px 0 -30px 0;
     }
-
     .grid2 figure {
         position: relative;
         overflow: hidden;
         margin: 5px;
         background: #333;
     }
-
     .grid2 figure img {
         position: relative;
         display: block;
@@ -803,7 +719,6 @@ in the welcome page
         -webkit-transition: opacity 0.3s;
         transition: opacity 0.3s;
     }
-
     .grid2 figcaption {
         position: absolute;
         top: 0;
@@ -813,7 +728,6 @@ in the welcome page
         height: 100%;
         text-align: center;
     }
-
     .grid2 figcaption h2 {
         margin: 0 0 20px 0;
         color: #3498db;
@@ -824,7 +738,6 @@ in the welcome page
         -webkit-transition: -webkit-transform 0.3s;
         transition: transform 0.3s;
     }
-
     .grid2 figcaption p {
         padding: 0 20px;
         color: #aaa;
@@ -832,13 +745,11 @@ in the welcome page
         -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
         transition: opacity 0.3s, transform 0.3s;
     }
-
     .grid2 figcaption h2,
     .grid2 figcaption p {
         -webkit-transform: translateY(50px);
         transform: translateY(50px);
     }
-
     .grid2 figure button {
         position: absolute;
         padding: 4px 20px;
@@ -849,7 +760,6 @@ in the welcome page
         -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
         transition: opacity 0.3s, transform 0.3s;
     }
-
     .grid2 figcaption,
     .grid2 figcaption h2,
     .grid2 figcaption p,
@@ -867,7 +777,6 @@ in the welcome page
         width: 100%;
         height: 100%;
     }
-
     .grid2 svg path {
         fill: #fff;
     }
@@ -876,17 +785,14 @@ in the welcome page
     .grid2 a:hover figure img {
         opacity: 1;
     }
-
     .grid2 a:hover figcaption h2,
     .grid2 a:hover figcaption p {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     .grid2 a:hover figcaption p {
         opacity: 0;
     }
-
     .demo-3 .grid2 figure button {
         top: 50%;
         left: 50%;
@@ -897,31 +803,26 @@ in the welcome page
         -webkit-transform: translateY(-50%) translateX(-50%) scale(0.25);
         transform: translateY(-50%) translateX(-50%) scale(0.25);
     }
-
     .demo-3 .grid2 a:hover figure button {
         opacity: 1;
         -webkit-transform: translateY(-50%) translateX(-50%) scale(1);
         transform: translateY(-50%) translateX(-50%) scale(1);
     }
-
     .demo-3 .grid2 figcaption h2,
     .demo-3 .grid2 figcaption p {
         -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1);
         older webkit -webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
         timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
     }
-
     .demo-3 .grid2 a:hover figcaption p {
         -webkit-transition-delay: 0s;
         transition-delay: 0s;
         -webkit-transition-duration: 0.1s;
         transition-duration: 0.1s;
     }
-
     .demo-3 .grid2 figcaption h2 {
         color: #52be7f;
     }
-
     .demo-3 .grid2 a:hover figcaption h2 {
         -webkit-transform: translateY(5px);
         transform: translateY(5px);
@@ -932,7 +833,6 @@ in the welcome page
         width: 100%;
         height: 500px;
     }
-
     .row.fixed_bg.bg_img_2 {
         background-image: url(../img/black-n-white--compressor.jpg);
         width: 100%;
@@ -959,7 +859,6 @@ in the welcome page
         width: calc(100% - 2em);
         vertical-align: top;
     }
-
     .input__field {
         position: relative;
         display: block;
@@ -975,11 +874,9 @@ in the welcome page
         -webkit-appearance: none;
         /* for box shadows to show on iOS */
     }
-
     .input__field:focus {
         outline: none;
     }
-
     .input__label {
         display: inline-block;
         float: right;
@@ -997,30 +894,25 @@ in the welcome page
         -ms-user-select: none;
         user-select: none;
     }
-
     .input__label-content {
         position: relative;
         display: block;
         padding: 1.4em 0;
         width: 100%;
     }
-
     .graphic {
         position: absolute;
         top: 0;
         left: 0;
         fill: none;
     }
-
     .icon {
         color: #ddd;
         font-size: 150%;
     }
-
     .input--haruki {
         margin: 4em 1em 1em;
     }
-
     .input__field--haruki {
         padding: 0.em 0.25em;
         width: 100%;
@@ -1028,19 +920,16 @@ in the welcome page
         color: #AFB5BB;
         font-size: 1.55em;
     }
-
     .input__label--haruki {
         position: absolute;
         width: 100%;
         text-align: left;
         pointer-events: none;
     }
-
     .input__label-content--haruki {
         -webkit-transition: -webkit-transform 0.3s;
         transition: transform 0.3s;
     }
-
     .input__label--haruki::before,
     .input__label--haruki::after {
         content: '';
@@ -1053,37 +942,30 @@ in the welcome page
         -webkit-transition: -webkit-transform 0.3s;
         transition: transform 0.3s;
     }
-
     .input__label--haruki::before {
         top: 0;
     }
-
     .input__label--haruki::after {
         bottom: 0;
     }
-
     .input__field--haruki:focus + .input__label--haruki .input__label-content--haruki,
     .input--filled .input__label-content--haruki {
         -webkit-transform: translate3d(0, -90%, 0);
         transform: translate3d(0, -90%, 0);
     }
-
     .input__field--haruki:focus + .input__label--haruki::before,
     .input--filled .input__label--haruki::before {
         -webkit-transform: translate3d(0, -0.5em, 0);
         transform: translate3d(0, -0.5em, 0);
     }
-
     .input__field--haruki:focus + .input__label--haruki::after,
     .input--filled .input__label--haruki::after {
         -webkit-transform: translate3d(0, 0.5em, 0);
         transform: translate3d(0, 0.5em, 0);
     }
-
     .bg-color {
         background-color: rgba(255, 255, 255, 0.53);
     }
-
     .nomargin-bottom {
         color: crimson;
         font-family: 'Roboto Condensed', sans-serif;
@@ -1091,32 +973,26 @@ in the welcome page
         text-transform: uppercase;
         padding-top: 2%;
     }
-
     .footer {
         width: 100%;
         height: 300px;
         background-color: rgba(0, 0, 0, 0.85);
     }
-
     .name-header {
         padding-top: 10%;
     }
-
     .name {
         color: whitesmoke;
     }
-
     .name span {
         color: crimson;
         font-family: 'Roboto Condensed', sans-serif
     }
-
     .central ul li {
         padding-top: 10%;
         list-style-type: none;
         text-decoration: none;
     }
-
     .central ul li a {
         color: whitesmoke;
         font-family: 'Roboto Condensed', sans-serif;
@@ -1128,7 +1004,6 @@ in the welcome page
         height: auto;
         background-color: whitesmoke;
     }
-
     .blog-header h1 {
         color: crimson;
         padding-top: 10%;
